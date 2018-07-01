@@ -1,26 +1,5 @@
 <template id="dateTimePicker">
   <div>
-    <!--<div class="form-horizontal">-->
-      <!--<div class="form-group">-->
-        <!--<label for="picker" class="col-sm-3 control-label">-->
-          <!--A default datetime picker:-->
-        <!--</label>-->
-        <!--<div class="col-sm-5" id="picker">-->
-          <!--<vue-datetime-picker-->
-            <!--class="vue-picker1"-->
-            <!--name="picker1"-->
-            <!--:model.sync="result1">-->
-          <!--</vue-datetime-picker>-->
-        <!--</div>-->
-        <!--<div class="col-sm-4">-->
-          <!--<p class="form-control-static">-->
-            <!--Selected Datetime: <span class="vue-result1">{{formatDatetime(result1)}}</span>-->
-          <!--</p>-->
-        <!--</div>-->
-      <!--</div>-->
-    <!--</div>-->
-    <h1>dateTimePicker</h1>
-
   </div>
 </template>
 

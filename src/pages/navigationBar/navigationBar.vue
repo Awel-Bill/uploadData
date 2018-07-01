@@ -101,7 +101,7 @@
         console.log(key, keyPath);
       },
       dataUpload(){
-        this.$router.push('sedimentation')
+        this.$router.push('navigationBar/sedimentation')
       }
     }
   }
