@@ -6,8 +6,15 @@ import router from './router'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import locale from 'element-ui/lib/locale/lang/en' // lang i18n
+import '@/style/main.scss' // global css
+import '../lib/ali-icon/iconfont.css'
+import '../lib/ali-icon/iconfont.js'
+import Vuex from 'vuex';
 
 Vue.use(ElementUI, { locale })
+
+// 通过模块倒入的话，还需要在模块中显式的安装
+Vue.use(Vuex);
 
 Vue.config.productionTip = false
 

@@ -9,6 +9,11 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
+      path: '/',
+      name: 'NavigationBar',
+      component: NavigationBar
+    },
+    {
       path: '/login',
       name: 'Login',
       component: Login
