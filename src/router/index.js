@@ -1,33 +1,29 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/pages/login/login'
-import NavigationBar from '@/pages/navigationBar/navigationBar'
-import Sedimentation from '@/pages/sedimentation/sedimentation'
+import Home from '@/pages/home/home'
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'NavigationBar',
-      component: NavigationBar
+      path      : '/',
+      name      : 'home',
+      redirect  : '/home',
+      component : Home,
+      hidden    : true,
+      children  : [{
+        path:'home',
+        name:'home'
+
+      }]
     },
     {
-      path: '/login',
-      name: 'Login',
-      component: Login
+      path      : '/login',
+      name      : 'Login',
+      component : Login ,
+      hidden    : true,
     },
-    {
-      path: '/navigationBar',
-      name: 'NavigationBar',
-      component: NavigationBar,
-      children:[{
-          path: 'sedimentation',
-          name: 'Sedimentation',
-          component: Sedimentation
-        }
-      ]
-    }
   ]
 })

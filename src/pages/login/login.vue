@@ -1,5 +1,5 @@
 <template>
-  <button>登录</button>
+  <h1>login</h1>
 
 </template>
 
@@ -7,7 +7,6 @@
   export default {
     name: "login",
   }
-  console.log("hhh");
 </script>
 
 <style scoped>
