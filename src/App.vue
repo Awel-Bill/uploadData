@@ -7,14 +7,6 @@
 <script>
   export default {
     name: 'App',
-    methods:{
-      login :  function () {
-        this.$router.push('login')
-      },
-      navigationBar:function () {
-        this.$router.push('navigationBar')
-      },
-    }
   }
 </script>
 
