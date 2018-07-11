@@ -23,7 +23,9 @@
               <router-link :to="'/dataUpload'">
                 <el-menu-item index="1-1">数据上传</el-menu-item>
               </router-link>
-              <el-menu-item index="1-2">选项2</el-menu-item>
+              <router-link :to="'/login'">
+                <el-menu-item index="1-2">选项2</el-menu-item>
+              </router-link>
             </el-menu-item-group>
             <el-menu-item-group title="分组2">
               <el-menu-item index="1-3">选项3</el-menu-item>
